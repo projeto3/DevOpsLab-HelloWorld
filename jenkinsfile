@@ -12,6 +12,6 @@ node {
     sh './venv/bin/py.test -ra -v --flaskes ./test.py'
 
     stage 'Deploy'
-    echo 'Será feito deploy em um determiando provedor de aplicação!'
+    echo 'Será feito deploy em um determinado provedor de aplicação!'
 }
 
