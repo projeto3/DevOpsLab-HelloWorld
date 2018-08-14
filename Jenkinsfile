@@ -1,6 +1,6 @@
 node {
     stage 'Git workspace'
-    git 'https://github.com/projeto3/DevOpsLab-HelloWorld/Jenkinsfile.git'
+    git 'https://github.com/projeto3/DevOpsLab-HelloWorld/blob/master/Jenkinsfile'
 
     stage 'Build venv'
     sh 'virtualenv --python=python3.6 venv'
