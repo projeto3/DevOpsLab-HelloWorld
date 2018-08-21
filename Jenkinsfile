@@ -9,7 +9,8 @@ pipeline {
         stage('Build') {
 
             steps {
-
+                
+                git url: 'https://github.com/projeto3/DevOpsLab-HelloWorld.git'
                 echo 'Building..'
 
             }
@@ -19,7 +20,8 @@ pipeline {
         stage('Test') {
 
             steps {
-
+                
+                
                 echo 'Testing..'
 
             }
