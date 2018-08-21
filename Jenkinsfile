@@ -11,7 +11,7 @@ pipeline {
             steps {
                 
                 git url: 'https://github.com/projeto3/DevOpsLab-HelloWorld.git'
-                sh 'yum install python-3.6.3'
+                sh 'pip install flask'
                 echo 'Building..'
 
             }
