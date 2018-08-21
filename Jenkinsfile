@@ -11,7 +11,7 @@ pipeline {
             steps {
                 
                 git url: 'https://github.com/projeto3/DevOpsLab-HelloWorld.git'
-                sh 'pip install -r requirements.txt'
+                sh 'sudo yum install python-3.6.3'
                 echo 'Building..'
 
             }
